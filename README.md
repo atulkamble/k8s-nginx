@@ -6,7 +6,7 @@ cd .\k8s-nginx\
 code .
 ```
 ```
-New-item nginx-deployment.yaml
+New-Item nginx-deployment.yaml
 kubectl create -f .\nginx-deployment.yaml
 New-Item nginx-service.yaml
 kubectl apply -f .\nginx-service.yaml
